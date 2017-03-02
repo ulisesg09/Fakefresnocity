@@ -1,0 +1,188 @@
+<doctype html>
+    <htm>
+
+        <head>
+            <title>
+                Fake Fresno City
+            </title>
+            <style>
+                * {
+                    margin: 0;
+                    padding: 0;
+                }
+
+                .container {
+                    width: 80%;
+                    margin: 0 auto;
+                    display: flex;
+                    flex-direction: column;
+                    height: 100%;
+                    position: relative;
+                    max-width: 860px;
+                }
+
+                body,
+                html {
+                    height: 100%;
+                }
+
+                .main-header {
+                    height: 110px;
+                    background-image: url('./imag/1.jpg');
+                }
+
+                .main-header,
+                .main-footer {
+                    background-color: #CCC;
+                    width: 100%;
+                }
+
+                .main-content {
+                    flex: 1;
+                    background-color: red;
+                    margin-bottom: 100px;
+                    border-bottom-left-radius: 30px;
+                    border-bottom-right-radius: 30px;
+                }
+
+                .main-sidebar {
+                    background-color: blue;
+                    width: 30%;
+                    float: left;
+                    flex: 1;
+                }
+
+                .content-right {
+                    background-color: blueviolet;
+                    width: 70%;
+                    position: absolute;
+                    left: 30%;
+                    flex: 1;
+                    height: 200px;
+                }
+
+                .main-header ul {
+                    list-style-type: none;
+                    width: 100%;
+                    text-align: center;
+                }
+
+                .main-header li {
+                    display: inline;
+                }
+
+                .main-header a {
+                    padding: 20px 10px;
+                    color: #FFF;
+                    text-decoration: none;
+                }
+
+                .main-header a:hover {
+                    text-decoration: underline;
+                }
+
+                nav.main-nav ul {
+                    list-style: none;
+                    background-color: #CC0000;
+                }
+
+                nav.main-nav li {
+                    display: inline-block;
+                    text-align: center;
+                }
+
+                nav.main-nav a {
+                    padding: 10px 20px;
+                    width: 14%;
+                    font-weight: bold;
+                    color: #FFF;
+                    text-decoration: none;
+                    display: inline-block;
+                }
+
+                nav.main-nav a:hover {
+                    background-color: #fe3f3f;
+                }
+
+                .gallery {
+                    height: 280px;
+                    background-image: url(./imag/2.jpg);
+                    background-repeat: no-repeat;
+                }
+
+                .main-sidebar ul {
+                    list-style: none;
+                }
+
+                .main-sidebar li {}
+
+                .main-sidebar a {
+                    color: #FFF;
+                    text-decoration: none;
+                    display: block;
+                    padding: 10px 0 10px 50px;
+                }
+
+                .sidebar-gradient {
+                    background-image: -webkit-gradient( linear, right top, right bottom, color-stop(0, #7C4532), color-stop(1, #FA1240));
+                    background-image: -o-linear-gradient(bottom, #7C4532 0%, #FA1240 100%);
+                    background-image: -moz-linear-gradient(bottom, #7C4532 0%, #FA1240 100%);
+                    background-image: -webkit-linear-gradient(bottom, #7C4532 0%, #FA1240 100%);
+                    background-image: -ms-linear-gradient(bottom, #7C4532 0%, #FA1240 100%);
+                    background-image: linear-gradient(to bottom, #7C4532 0%, #FA1240 100%);
+                }
+            </style>
+        </head>
+
+        <body>
+
+            <div class="container">
+
+                <header class="main-header">
+                    <ul>
+                        <li><a href="#">link1</a></li>
+                        <li><a href="#">link1</a></li>
+                        <li><a href="#">link1</a></li>
+                        <li><a href="#">link1</a></li>
+                        <li><a href="#">link1</a></li>
+                        <li><a href="#">link1</a></li>
+                        <li><a href="#">link1</a></li>
+                    </ul>
+                </header>
+                <div class="main-content">
+                    <nav class="main-nav">
+                        <ul>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                        </ul>
+                    </nav>
+                    <div class="gallery">
+
+                    </div>
+                    <aside class="main-sidebar">
+                        <ul class="side-nav">
+                            <li class="sidebar-gradient"><a href="#">link1</a></li>
+                            <li class="sidebar-gradient"><a href="#">link1</a></li>
+                            <li class="sidebar-gradient"><a href="#">link1</a></li>
+                            <li class="sidebar-gradient"><a href="#">link1</a></li>
+                            <li class="sidebar-gradient"><a href="#">link1</a></li>
+                            <li class="sidebar-gradient"><a href="#">link1</a></li>
+                            <li class="sidebar-gradient"><a href="#">link1</a></li>
+                        </ul>
+                    </aside>
+                    <div class="content-right">
+                        content-right
+                    </div>
+                </div>
+                <footer class="main-footer">
+                    (c) created by Ulises Gutierrez
+                </footer>
+            </div>
+        </body>
+    </htm>
+</doctype>
